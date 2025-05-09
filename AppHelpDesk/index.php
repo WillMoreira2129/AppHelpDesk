@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <title>App Help Desk</title>
@@ -48,6 +48,16 @@
                     Usuário ou senha inválido(s)
 
                   </div>
+
+                <?php } ?>
+
+                <?php if(isset($_GET['login']) && $_GET['login'] == 'erro2'){?>
+
+                <div class="text-danger">
+
+                  Faça login para acessar as páginas protegidas.
+
+                </div>
 
                 <?php } ?>
 
