@@ -40,6 +40,8 @@
                 <div class="form-group">
                   <input name="senha" type ="senha" class="form-control" placeholder="Senha">
                 </div>
+ 
+                <p><a href="http://localhost/AppHelpDesk/cadastrar.php" target="_blank" rel="noopener noreferrer">Registar</a></p>
 
                 <?php if(isset($_GET['login']) && $_GET['login'] =='erro'){?>
 
